@@ -2029,7 +2029,8 @@ public class CFSettings {
             validate = Validators.reIntroduceInstantBlockUpdatesValidator.class,
             category = REINTRODUCE
     )
-    public static boolean reIntroduceInstantBlockUpdates = false;
+    public static boolean reIntroduceInstantBlockUpdates = true
+        ;
 
     //By FX - PR0CESS
     @Rule(
